@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1087189910913",
+    "project_id": "parkxpert-2731a",
+    "storage_bucket": "parkxpert-2731a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087189910913:android:d3d43d51ceebbd75ef9480",
+        "android_client_info": {
+          "package_name": "com.example.parkxpert"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDddls8Bnk8RD84ClKW8zJnwsgSYUVIrX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,35 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "parkxpert-2731a",
+          "appId": "1:1087189910913:android:d3d43d51ceebbd75ef9480",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "parkxpert-2731a",
+          "configurations": {
+            "android": "1:1087189910913:android:d3d43d51ceebbd75ef9480",
+            "ios": "1:1087189910913:ios:92f96f1f60de4d7fef9480"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
