@@ -14,11 +14,12 @@ The system helps automate parking space detection, track vehicle entries/exits, 
 ---
 
 ## 📂 Project Structure
+````markdown
 ├── Car-Number-Plates-Detection-main # License plate detection code
 ├── ParkXpert # Main application
 ├── Slot_Monitoring_Model # Slot monitoring ML model
 ├── Testing Videos # Sample test videos
-
+````
 ---
 
 ## 🛠 Tech Stack
@@ -49,3 +50,4 @@ The important part is this:
 ├── ParkXpert # Main application
 ├── Slot_Monitoring_Model # Slot monitoring ML model
 ├── Testing Videos # Sample test videos
+````
