@@ -36,9 +36,6 @@ The system helps automate parking space detection, track vehicle entries/exits, 
    git clone https://github.com/<your-username>/smart-parking-system.git
 ```
 
-📹 Demo
-[![Watch the video](https://img.youtube.com/vi/t6EqYgVRsaY/maxresdefault.jpg)](https://youtu.be/t6EqYgVRsaY)
-
 📜 License
 
 This project is licensed under the MIT License – feel free to use and modify
