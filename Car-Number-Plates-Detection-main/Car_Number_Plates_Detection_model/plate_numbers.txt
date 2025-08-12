@@ -1,0 +1,4 @@
+img1.jpg: LEG-DC | Raw OCR: [([[np.int32(94), np.int32(31)], [np.int32(203), np.int32(31)], [np.int32(203), np.int32(98)], [np.int32(94), np.int32(98)]], 'Leg', np.float64(0.5628763544597664)), ([[np.int32(76), np.int32(85)], [np.int32(211), np.int32(85)], [np.int32(211), np.int32(154)], [np.int32(76), np.int32(154)]], 'DC', np.float64(0.154094681902111))]
+img2.jpg: LEC-3378 | Raw OCR: [([[np.int32(132), np.int32(17)], [np.int32(306), np.int32(17)], [np.int32(306), np.int32(110)], [np.int32(132), np.int32(110)]], 'LEC', np.float64(0.973439633846283)), ([[np.int32(112), np.int32(102)], [np.int32(333), np.int32(102)], [np.int32(333), np.int32(198)], [np.int32(112), np.int32(198)]], '3378', np.float64(0.9980962804983999))]
+img3.jpg: [No text detected] | Raw OCR: []
+img4.jpg: [No text detected] | Raw OCR: []

@@ -1,0 +1,165 @@
+/* Animated gradient overlay for background */
+
+.animated-gradient-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.85;
+  background: linear-gradient(120deg, #6dd5ed, #00c6ff, #90caf9, #42a5f5, #2196f3, #64b5f6, #6dd5ed);
+  background-size: 1200% 1200%;
+  animation: gradientBGmove 14s ease-in-out infinite;
+  filter: blur(0.5px) brightness(1.08);
+}
+
+@keyframes gradientBGmove {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 100%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 0%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* Car animation styles */
+.car-animation {
+  position: absolute;
+  bottom: 30px;
+  left: -140px;
+  width: 120px;
+  height: 60px;
+  z-index: 2;
+  animation: carMove 8s linear infinite;
+}
+
+@keyframes carMove {
+  0% {
+    left: -140px;
+    transform: scaleX(1);
+  }
+  45% {
+    left: calc(100vw - 120px);
+    transform: scaleX(1);
+  }
+  50% {
+    left: calc(100vw - 120px);
+    transform: scaleX(-1);
+  }
+  95% {
+    left: -140px;
+    transform: scaleX(-1);
+  }
+  100% {
+    left: -140px;
+    transform: scaleX(1);
+  }
+}
+/* Light blue theme background */
+.animated-blue-bg {
+  position: fixed;
+  z-index: 0;
+}
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.45;
+  filter: blur(40px);
+  animation: blobMove 16s infinite alternate cubic-bezier(0.77,0,0.175,1);
+  mix-blend-mode: lighten;
+  transition: background 0.5s;
+}
+.blob1 {
+  width: 420px;
+  height: 420px;
+  background: radial-gradient(circle at 30% 30%, #90caf9 70%, #00e5ff 100%);
+  top: 4%;
+  left: 8%;
+  animation-delay: 0s;
+}
+.blob2 {
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle at 70% 70%, #00e5ff 60%, #64b5f6 100%);
+  top: 58%;
+  left: 62%;
+  animation-delay: 2s;
+}
+.blob3 {
+  width: 260px;
+  height: 260px;
+  background: radial-gradient(circle at 50% 50%, #42a5f5 60%, #b3e5fc 100%);
+  top: 28%;
+  left: 72%;
+  animation-delay: 4s;
+}
+.blob4 {
+  width: 210px;
+  height: 210px;
+  background: radial-gradient(circle at 60% 40%, #b3e5fc 60%, #00c6ff 100%);
+  top: 68%;
+  left: 18%;
+  animation-delay: 6s;
+}
+.blob5 {
+  width: 180px;
+  height: 180px;
+  background: radial-gradient(circle at 40% 60%, #00e5ff 60%, #90caf9 100%);
+  top: 15%;
+  left: 75%;
+  animation-delay: 8s;
+}
+@keyframes blobMove {
+  0% {
+    transform: scale(1) translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: scale(1.15) translate(40px, -30px) rotate(10deg);
+  }
+  50% {
+    transform: scale(1.1) translate(-30px, 40px) rotate(-8deg);
+  }
+  75% {
+    transform: scale(1.2) translate(30px, 30px) rotate(8deg);
+  }
+  100% {
+    transform: scale(1) translate(0, 0) rotate(0deg);
+  }
+}
+@keyframes blob1move {
+  0% { transform: scale(1) translateY(0) translateX(0); }
+  50% { transform: scale(1.1) translateY(60px) translateX(40px); }
+  100% { transform: scale(1.05) translateY(-40px) translateX(-30px); }
+}
+@keyframes blob2move {
+  0% { transform: scale(1) translateY(0) translateX(0); }
+  50% { transform: scale(1.15) translateY(-50px) translateX(-30px); }
+  100% { transform: scale(1.05) translateY(30px) translateX(20px); }
+}
+@keyframes blob3move {
+  0% { transform: scale(1) translateY(0) translateX(0); }
+  50% { transform: scale(1.2) translateY(30px) translateX(-40px); }
+  100% { transform: scale(1.05) translateY(-30px) translateX(30px); }
+}
+@keyframes blob4move {
+  0% { transform: scale(1) translateY(0) translateX(0); }
+  50% { transform: scale(1.1) translateY(-40px) translateX(40px); }
+  100% { transform: scale(1.05) translateY(30px) translateX(-20px); }
+}
+
+@media (max-width: 600px) {
+  .animated-blue-bg .blob {
+    width: 180px !important;
+    height: 180px !important;
+  }
+}
