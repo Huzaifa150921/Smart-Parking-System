@@ -61,7 +61,7 @@ This system helps users find nearby parking, reserve slots, make payments, and t
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/<your-username>/smart-parking-system.git
+git clone https://github.com/Huzaifa150921/smart-parking-system.git
 cd smart-parking-system
 # Install dependencies as per instructions in each module
 ```
