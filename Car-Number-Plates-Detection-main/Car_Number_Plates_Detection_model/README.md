@@ -41,7 +41,7 @@ This project is ideal for **automated parking systems**, **traffic monitoring**,
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/Car-Number-Plates-Detection.git
+git clone https://github.com/Huzaifa150921/Car-Number-Plates-Detection.git
 cd Car-Number-Plates-Detection-main
 pip install -r requirements.txt
 ```
