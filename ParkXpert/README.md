@@ -1,16 +1,50 @@
-# parkxpert
+# ParkXpert 📱🅿️
 
-A new Flutter project.
+**ParkXpert** is a **mobile application** built with **Flutter** for managing parking bookings, vehicle entry/exit, and navigation to parking slots.  
+It integrates **real-time parking slot availability**, **user authentication**, and **payment features** for a smooth parking experience.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Firebase Authentication** – secure login for users and parking owners  
+- **Real-time Parking Availability** – view free, reserved, and occupied slots  
+- **Booking & Payment** – reserve parking slots and pay via Stripe  
+- **Navigation** – get directions from current location to selected parking  
+- **User Dashboard** – view active bookings, history, and profile management  
+- **Owner Dashboard** – manage parking slots, revenue, and reviews  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Tech Stack
+
+- **Flutter** – for cross-platform mobile development  
+- **Firebase Auth & Firestore** – for authentication and real-time data  
+- **Stripe** – payment integration  
+- **Google Maps API** – navigation and location services  
+- **Dart** – programming language  
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Flutter SDK (3.0+)  
+- Android Studio or VS Code  
+- Firebase project for Auth and Firestore  
+
+### Installation
+
+```bash
+git clone https://github.com/Huzaifa150921/ParkXpert.git
+cd ParkXpert
+flutter pub get
+flutter run
+```
+
+---
+### ⭐ Support
+
+If you find this project helpful, please ⭐ star the repository on GitHub. Your support keeps me motivated to improve the app.
+---
