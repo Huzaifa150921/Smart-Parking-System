@@ -25,16 +25,7 @@ This project is ideal for **automated parking systems**, **traffic monitoring**,
 
 ---
 
-## 📂 Project Structure
 
-├── Car-Number-Plates-Detection-main # Core detection scripts
-├── Sample_Images # Test images for license plate detection
-├── Sample_Videos # Test videos for real-time detection
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-
-
----
 
 ## 🚀 Getting Started
 
@@ -63,17 +54,17 @@ Run on Video
 python detect_plate_video.py --video path_to_video.mp4
 The system will detect license plates and show a bounding box with extracted plate text.
 ---
-### 💡 Applications
 
+
+### 💡 Applications
 ---
 Smart Parking Systems
-
-Traffic Violation Detection
-
-Toll Booth Automation
-
 Vehicle Entry/Exit Logs
+Toll Booth Automation
+Traffic Violation Detection
 ---  
+
+
 ### ⭐ Support
 ---
 If you find this project useful, please ⭐ star the repository on GitHub. Your support helps me maintain and improve the project.
