@@ -46,7 +46,7 @@ cd Car-Number-Plates-Detection-main
 pip install -r requirements.txt
 ```
 ### Usage
----
+
 Run on Image
 python detect_plate_image.py --image path_to_image.jpg
 
@@ -57,12 +57,12 @@ The system will detect license plates and show a bounding box with extracted pla
 
 
 ### 💡 Applications
----
-Smart Parking Systems
-Vehicle Entry/Exit Logs
-Toll Booth Automation
-Traffic Violation Detection
----  
+
+- Smart Parking Systems  
+- Vehicle Entry/Exit Logs  
+- Toll Booth Automation  
+- Traffic Violation Detection  
+
 
 
 ### ⭐ Support
