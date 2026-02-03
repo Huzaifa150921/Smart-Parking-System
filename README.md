@@ -48,16 +48,6 @@ This system helps users find nearby parking, reserve slots, make payments, and t
 
 ---
 
-## 📂 Project Structure
-
-├── Car-Number-Plates-Detection-main # License plate recognition code
-├── ParkXpert # Main application
-├── Slot_Monitoring_Model # YOLO slot monitoring model
-├── Testing Videos # Sample test videos
-
-
----
-
 ## 🛠 Tech Stack
 - **Frontend / Backend:** Python, Flask/Django, Firebase  
 - **Machine Learning:** OpenCV, TensorFlow/PyTorch, YOLO  
